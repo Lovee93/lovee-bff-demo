@@ -31,7 +31,7 @@ export type Denominations = {
 
 const expireCache = () => {
   const intervalId = setInterval(async () => {
-    console.log("expire key");
+    console.log("expire cache key");
     try {
       await redisClient.DEL("products")
     }
@@ -47,7 +47,7 @@ app.get('/ping', async (req: Request, res: Response) => {
 app.get('/api/products', async (req: Request, res: Response) => {
   const cached_products = await redisClient.get('products')
   if(cached_products) {
-    console.log("Sending response from redis cache")
+    console.log("Cache Hit")
     res.send(JSON.parse(cached_products))
   }
   else {
@@ -62,7 +62,7 @@ app.get('/api/products', async (req: Request, res: Response) => {
       product.denominations = pi
     })
     await redisClient.set('products', JSON.stringify(products.products))
-    console.log("Sending response from network")
+    console.log("Cache miss")
     res.send(products.products)
   }
 });
