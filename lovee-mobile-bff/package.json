@@ -1,0 +1,18 @@
+{
+  "name": "lovee-mobile-bff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=mobileBFF --signature-type=http",
+    "dev": "nodemon --exec 'functions-framework --target=mobileBFF --signature-type=http'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

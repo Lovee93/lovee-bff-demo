@@ -1,0 +1,149 @@
+{
+    "products": [
+        {
+            "skuId": 101,
+            "denominations": [
+                {
+                    "value": 50,
+                    "stock": null
+                },
+                {
+                    "value": 100,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 200,
+                    "stock": "MEDIUM"
+                },
+                {
+                    "value": 250,
+                    "stock": "LOW"
+                },
+                {
+                    "value": 500,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 1000,
+                    "stock": "HIGH"
+                }
+            ]
+        },
+        {
+            "skuId": 102,
+            "denominations": [
+                {
+                    "value": 50,
+                    "stock": "HGH"
+                },
+                {
+                    "value": 100,
+                    "stock": "LOW"
+                },
+                {
+                    "value": 200,
+                    "stock": null
+                },
+                {
+                    "value": 300,
+                    "stock": "MEDIUM"
+                },
+                {
+                    "value": 500,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 1000,
+                    "stock": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "skuId": 103,
+            "denominations": [
+                {
+                    "value": 5,
+                    "stock": null
+                },
+                {
+                    "value": 10,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 20,
+                    "stock": "MEDIUM"
+                },
+                {
+                    "value": 30,
+                    "stock": "LOW"
+                },
+                {
+                    "value": 50,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 100,
+                    "stock": "HIGH"
+                }
+            ]
+        },
+        {
+            "skuId": 104,
+            "denominations": [
+                {
+                    "value": 5,
+                    "stock": "LOW"
+                },
+                {
+                    "value": 10,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 20,
+                    "stock": "MEDIUM"
+                },
+                {
+                    "value": 30,
+                    "stock": "HGH"
+                },
+                {
+                    "value": 50,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 100,
+                    "stock": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "skuId": 105,
+            "denominations": [
+                {
+                    "value": 10,
+                    "stock": null
+                },
+                {
+                    "value": 30,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 50,
+                    "stock": "MEDIUM"
+                },
+                {
+                    "value": 75,
+                    "stock": "LOW"
+                },
+                {
+                    "value": 100,
+                    "stock": "HIGH"
+                },
+                {
+                    "value": 200,
+                    "stock": "HIGH"
+                }
+            ]
+        }
+    ]
+}

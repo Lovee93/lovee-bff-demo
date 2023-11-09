@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "skuId": 101,
+            "skuName": "Google",
+            "skuTheme": "google01",
+            "skuImage": "https://blog.hubspot.com/hubfs/image8-2.jpg",
+            "description": "Be grateful with Google gift card"
+        },
+        {
+            "skuId": 102,
+            "skuName": "Apple",
+            "skuTheme": "apple01",
+            "skuImage": "https://pngfre.com/wp-content/uploads/apple-logo-6-1024x1024.png",
+            "description": "This is an awesome apple gift card"
+        },
+        {
+            "skuId": 103,
+            "skuName": "Coles",
+            "skuTheme": "coles02",
+            "skuImage": "https://pbs.twimg.com/profile_images/1480692480748122113/Utk6zrlI_400x400.png",
+            "description": "The cool Coles gift card"
+        },
+        {
+            "skuId": 104,
+            "skuName": "Woolworths",
+            "skuTheme": "woolies02",
+            "skuImage": "https://pelicanwaterscommunity.com.au/wp-content/uploads/2017/11/Woolworths-logo.png",
+            "description": "Walkway with wonderful Woolies gift card"
+        },
+        {
+            "skuId": 105,
+            "skuName": "Myer",
+            "skuTheme": "myer03",
+            "skuImage": "https://www.applianceretailer.com.au/wp-content/uploads/myer_logo.jpg",
+            "description": "May you shop the best with Myer gift card"
+        }
+    ]
+}
